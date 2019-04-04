@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:CP1 C2
+L shellbell-rescue:CP1-Device-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue C2
 U 1 1 5C82E5BF
 P 7350 2450
 F 0 "C2" H 7465 2496 50  0000 L CNN
@@ -26,7 +26,7 @@ F 3 "~" H 7350 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0101
+L shellbell-rescue:GND-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0101
 U 1 1 5C82E7DE
 P 3400 3000
 F 0 "#PWR0101" H 3400 2750 50  0001 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 3400 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1 C1
+L shellbell-rescue:CP1-Device-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue C1
 U 1 1 5C82E569
 P 3400 2750
 F 0 "C1" H 3515 2796 50  0000 L CNN
@@ -48,7 +48,7 @@ F 3 "~" H 3400 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0102
+L shellbell-rescue:GND-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0102
 U 1 1 5C82EF97
 P 7350 2600
 F 0 "#PWR0102" H 7350 2350 50  0001 C CNN
@@ -59,7 +59,7 @@ F 3 "" H 7350 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4007 D1
+L shellbell-rescue:1N4007-Diode-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue D1
 U 1 1 5C830709
 P 9400 3200
 F 0 "D1" V 9450 3400 50  0000 R CNN
@@ -70,7 +70,7 @@ F 3 "~" H 9400 3200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0105
+L shellbell-rescue:GND-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0105
 U 1 1 5C831DC8
 P 9050 3800
 F 0 "#PWR0105" H 9050 3550 50  0001 C CNN
@@ -83,7 +83,7 @@ $EndComp
 Wire Wire Line
 	3100 2550 3400 2550
 $Comp
-L power:+12V #PWR0108
+L shellbell-rescue:+12V-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0108
 U 1 1 5C835D1C
 P 3400 2500
 F 0 "#PWR0108" H 3400 2350 50  0001 C CNN
@@ -97,7 +97,7 @@ $EndComp
 Wire Wire Line
 	3400 2550 3400 2500
 $Comp
-L power:+12V #PWR0109
+L shellbell-rescue:+12V-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0109
 U 1 1 5C8364FE
 P 9400 3000
 F 0 "#PWR0109" H 9400 2850 50  0001 C CNN
@@ -108,7 +108,7 @@ F 3 "" H 9400 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR0110
+L shellbell-rescue:+12V-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0110
 U 1 1 5C836540
 P 6400 1950
 F 0 "#PWR0110" H 6400 1800 50  0001 C CNN
@@ -124,7 +124,7 @@ Connection ~ 3400 2550
 Wire Wire Line
 	9400 3350 9400 3400
 $Comp
-L power:PWR_FLAG #FLG0101
+L shellbell-rescue:PWR_FLAG-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #FLG0101
 U 1 1 5C87C0A3
 P 3950 2550
 F 0 "#FLG0101" H 3950 2625 50  0001 C CNN
@@ -137,7 +137,7 @@ $EndComp
 Wire Wire Line
 	3950 2550 3850 2550
 $Comp
-L dk_Interface-Controllers:FT230XS-U U2
+L shellbell-rescue:FT230XS-U-dk_Interface-Controllers-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue U2
 U 1 1 5C9910BE
 P 6750 4900
 F 0 "U2" H 6500 4150 60  0000 C CNN
@@ -165,7 +165,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 4800 6350 4800
 $Comp
-L power:GND #PWR0111
+L shellbell-rescue:GND-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0111
 U 1 1 5C99AF84
 P 5700 4750
 F 0 "#PWR0111" H 5700 4500 50  0001 C CNN
@@ -182,7 +182,7 @@ Wire Wire Line
 Wire Wire Line
 	6950 4450 6950 4500
 $Comp
-L Connector_Generic:Conn_02x04_Odd_Even J2
+L shellbell-rescue:Conn_02x04_Odd_Even-Connector_Generic-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue J2
 U 1 1 5C9A93AC
 P 4500 4550
 F 0 "J2" H 4550 4750 50  0000 C CNN
@@ -193,7 +193,7 @@ F 3 "~" H 4500 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
+L shellbell-rescue:R-Device-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue R1
 U 1 1 5C9A95F3
 P 4000 4650
 F 0 "R1" V 3900 4650 50  0000 C CNN
@@ -204,7 +204,7 @@ F 3 "~" H 4000 4650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R3
+L shellbell-rescue:R-Device-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue R3
 U 1 1 5C9A96AF
 P 5000 4650
 F 0 "R3" V 5150 4650 50  0000 C CNN
@@ -219,7 +219,7 @@ Wire Wire Line
 Wire Wire Line
 	4150 4650 4300 4650
 $Comp
-L power:+3V3 #PWR0114
+L shellbell-rescue:+3.3V-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0114
 U 1 1 5C9ACFC6
 P 3850 4450
 F 0 "#PWR0114" H 3850 4300 50  0001 C CNN
@@ -230,7 +230,7 @@ F 3 "" H 3850 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0115
+L shellbell-rescue:+3.3V-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0115
 U 1 1 5C9ADF69
 P 5150 4500
 F 0 "#PWR0115" H 5150 4350 50  0001 C CNN
@@ -243,7 +243,7 @@ $EndComp
 Wire Wire Line
 	3850 4450 3850 4650
 $Comp
-L Device:R R2
+L shellbell-rescue:R-Device-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue R2
 U 1 1 5C9AF2CF
 P 5000 4550
 F 0 "R2" V 4900 4550 50  0000 C CNN
@@ -260,7 +260,7 @@ Wire Wire Line
 Wire Wire Line
 	7350 5000 7400 5000
 $Comp
-L power:GND #PWR0116
+L shellbell-rescue:GND-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0116
 U 1 1 5C9B472F
 P 4550 4050
 F 0 "#PWR0116" H 4550 3800 50  0001 C CNN
@@ -293,7 +293,7 @@ NoConn ~ 6350 5100
 NoConn ~ 6350 5200
 NoConn ~ 6350 5500
 $Comp
-L Device:LED D3
+L shellbell-rescue:LED-Device-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue D3
 U 1 1 5C9D43F9
 P 5750 5800
 F 0 "D3" H 5742 6016 50  0000 C CNN
@@ -304,7 +304,7 @@ F 3 "~" H 5750 5800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED D2
+L shellbell-rescue:LED-Device-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue D2
 U 1 1 5C9D44A9
 P 5400 5300
 F 0 "D2" H 5392 5516 50  0000 C CNN
@@ -315,7 +315,7 @@ F 3 "~" H 5400 5300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R R4
+L shellbell-rescue:R-Device-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue R4
 U 1 1 5C9D4760
 P 5750 5300
 F 0 "R4" V 5650 5300 50  0000 C CNN
@@ -326,7 +326,7 @@ F 3 "~" H 5750 5300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R5
+L shellbell-rescue:R-Device-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue R5
 U 1 1 5C9D47D5
 P 5400 5800
 F 0 "R5" V 5300 5800 50  0000 C CNN
@@ -343,7 +343,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 5300 5600 5300
 $Comp
-L power:+3V3 #PWR0117
+L shellbell-rescue:+3.3V-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0117
 U 1 1 5C9DA2D9
 P 5200 5300
 F 0 "#PWR0117" H 5200 5150 50  0001 C CNN
@@ -354,7 +354,7 @@ F 3 "" H 5200 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0118
+L shellbell-rescue:+3.3V-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0118
 U 1 1 5C9DA30D
 P 5200 5800
 F 0 "#PWR0118" H 5200 5650 50  0001 C CNN
@@ -373,7 +373,7 @@ RX_LED#
 Text Notes 5850 5800 0    50   ~ 0
 TX_LED#
 $Comp
-L power:+5V #PWR0119
+L shellbell-rescue:+5V-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0119
 U 1 1 5C9DEAC6
 P 6100 4100
 F 0 "#PWR0119" H 6100 3950 50  0001 C CNN
@@ -384,7 +384,7 @@ F 3 "" H 6100 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0120
+L shellbell-rescue:+5V-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0120
 U 1 1 5C9DEAFA
 P 7050 4100
 F 0 "#PWR0120" H 7050 3950 50  0001 C CNN
@@ -401,7 +401,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 3400 9400 3400
 $Comp
-L power:+3V3 #PWR0112
+L shellbell-rescue:+3.3V-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0112
 U 1 1 5C9F5A59
 P 6150 4900
 F 0 "#PWR0112" H 6150 4750 50  0001 C CNN
@@ -414,7 +414,7 @@ $EndComp
 Wire Wire Line
 	6150 4900 6350 4900
 $Comp
-L Connector:Barrel_Jack_MountingPin J1
+L shellbell-rescue:Barrel_Jack_MountingPin-Connector-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue J1
 U 1 1 5C9FACC2
 P 2800 2650
 F 0 "J1" H 2855 2967 50  0000 C CNN
@@ -427,7 +427,7 @@ $EndComp
 Wire Wire Line
 	3100 2750 3100 2950
 $Comp
-L power:+5V #PWR0113
+L shellbell-rescue:+5V-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0113
 U 1 1 5C9FEBF2
 P 6050 2300
 F 0 "#PWR0113" H 6050 2150 50  0001 C CNN
@@ -438,7 +438,7 @@ F 3 "" H 6050 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D4
+L shellbell-rescue:D-Device-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue D4
 U 1 1 5CA02F29
 P 6250 2300
 F 0 "D4" H 6250 2400 50  0000 C CNN
@@ -474,7 +474,7 @@ Wire Wire Line
 Wire Wire Line
 	9750 3400 9750 3350
 $Comp
-L Device:L_Core_Iron L1
+L shellbell-rescue:L_Core_Iron-Device-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue L1
 U 1 1 5C830224
 P 9750 3200
 F 0 "L1" H 9838 3246 50  0000 L CNN
@@ -492,7 +492,7 @@ Wire Wire Line
 	6300 5800 5900 5800
 Connection ~ 5700 4700
 $Comp
-L Connector:USB_B_Mini J3
+L shellbell-rescue:USB_B_Mini-Connector-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue J3
 U 1 1 5C993947
 P 5700 4300
 F 0 "J3" H 5700 4750 50  0000 C CNN
@@ -510,7 +510,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 2300 6050 2300
 $Comp
-L Device:D D5
+L shellbell-rescue:D-Device-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue D5
 U 1 1 5CA3C74A
 P 6400 2100
 F 0 "D5" V 6446 2021 50  0000 R CNN
@@ -523,7 +523,7 @@ $EndComp
 Wire Wire Line
 	6400 2250 6400 2300
 $Comp
-L power:+3V3 #PWR0121
+L shellbell-rescue:+3.3V-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0121
 U 1 1 5CA52736
 P 7350 2300
 F 0 "#PWR0121" H 7350 2150 50  0001 C CNN
@@ -534,7 +534,7 @@ F 3 "" H 7350 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0122
+L shellbell-rescue:GND-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0122
 U 1 1 5CA597C5
 P 7000 5750
 F 0 "#PWR0122" H 7000 5500 50  0001 C CNN
@@ -569,7 +569,7 @@ Wire Wire Line
 	5150 4750 5150 4650
 Connection ~ 5150 4650
 $Comp
-L Transistor_FET:IRLB8721PBF Q1
+L shellbell-rescue:IRLB8721PBF-Transistor_FET-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue Q1
 U 1 1 5C82FE9F
 P 8950 3600
 F 0 "Q1" H 8900 3450 50  0000 L CNN
@@ -582,7 +582,7 @@ $EndComp
 Wire Wire Line
 	8750 3600 4250 3600
 $Comp
-L dk_PMIC-Voltage-Regulators-Linear:LD1117V33 U1
+L shellbell-rescue:LD1117V33-dk_PMIC-Voltage-Regulators-Linear-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue U1
 U 1 1 5C9AEE14
 P 6900 2300
 F 0 "U1" H 6900 2587 60  0000 C CNN
@@ -611,7 +611,7 @@ Wire Wire Line
 Connection ~ 7350 2600
 Connection ~ 6400 2300
 $Comp
-L Device:CP1 C3
+L shellbell-rescue:CP1-Device-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue C3
 U 1 1 5C9AF28F
 P 6050 2450
 F 0 "C3" H 5850 2500 50  0000 L CNN
@@ -622,7 +622,7 @@ F 3 "~" H 6050 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0103
+L shellbell-rescue:GND-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0103
 U 1 1 5C9AF4E2
 P 6050 2600
 F 0 "#PWR0103" H 6050 2350 50  0001 C CNN
@@ -634,7 +634,7 @@ F 3 "" H 6050 2600 50  0001 C CNN
 $EndComp
 Connection ~ 6050 2300
 $Comp
-L power:PWR_FLAG #FLG0102
+L shellbell-rescue:PWR_FLAG-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #FLG0102
 U 1 1 5C9B0FC3
 P 6600 2900
 F 0 "#FLG0102" H 6600 2975 50  0001 C CNN
@@ -649,7 +649,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 2900 6400 2300
 $Comp
-L Diode:1N4148W D6
+L shellbell-rescue:1N4148W-Diode-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue D6
 U 1 1 5C9C4B58
 P 5400 2450
 F 0 "D6" V 5300 2250 50  0000 L CNN
@@ -661,7 +661,7 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5400 2450 50  0001 C CNN
 $EndComp
 Connection ~ 6050 2600
 $Comp
-L Diode:1N4148W D7
+L shellbell-rescue:1N4148W-Diode-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue D7
 U 1 1 5C9EF10E
 P 3850 2750
 F 0 "D7" V 3800 2850 50  0000 L CNN
@@ -681,7 +681,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 2950 3400 2950
 $Comp
-L Device:C C4
+L shellbell-rescue:C-Device-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue C4
 U 1 1 5CA3FEAA
 P 5600 2450
 F 0 "C4" H 5715 2496 50  0000 L CNN
