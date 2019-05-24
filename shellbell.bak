@@ -15,690 +15,725 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L shellbell-rescue:CP1-Device-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue C2
+L Device:CP1 C2
 U 1 1 5C82E5BF
-P 7350 2450
-F 0 "C2" H 7465 2496 50  0000 L CNN
-F 1 "10uf" H 7465 2405 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 7350 2450 50  0001 C CNN
-F 3 "~" H 7350 2450 50  0001 C CNN
-	1    7350 2450
+P 7050 2300
+F 0 "C2" H 7165 2346 50  0000 L CNN
+F 1 "10uf" H 7165 2255 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 7050 2300 50  0001 C CNN
+F 3 "~" H 7050 2300 50  0001 C CNN
+	1    7050 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L shellbell-rescue:GND-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0101
+L power:GND #PWR0101
 U 1 1 5C82E7DE
-P 3400 3000
-F 0 "#PWR0101" H 3400 2750 50  0001 C CNN
-F 1 "GND" H 3405 2827 50  0000 C CNN
-F 2 "" H 3400 3000 50  0001 C CNN
-F 3 "" H 3400 3000 50  0001 C CNN
-	1    3400 3000
+P 3100 2850
+F 0 "#PWR0101" H 3100 2600 50  0001 C CNN
+F 1 "GND" H 3105 2677 50  0000 C CNN
+F 2 "" H 3100 2850 50  0001 C CNN
+F 3 "" H 3100 2850 50  0001 C CNN
+	1    3100 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L shellbell-rescue:CP1-Device-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue C1
+L Device:CP1 C1
 U 1 1 5C82E569
-P 3400 2750
-F 0 "C1" H 3515 2796 50  0000 L CNN
-F 1 "100uF" H 3515 2705 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 3400 2750 50  0001 C CNN
-F 3 "~" H 3400 2750 50  0001 C CNN
-	1    3400 2750
+P 3100 2600
+F 0 "C1" H 3215 2646 50  0000 L CNN
+F 1 "100uF" H 3215 2555 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 3100 2600 50  0001 C CNN
+F 3 "~" H 3100 2600 50  0001 C CNN
+	1    3100 2600
 	1    0    0    -1  
 $EndComp
 $Comp
-L shellbell-rescue:GND-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0102
+L power:GND #PWR0102
 U 1 1 5C82EF97
-P 7350 2600
-F 0 "#PWR0102" H 7350 2350 50  0001 C CNN
-F 1 "GND" H 7355 2427 50  0000 C CNN
-F 2 "" H 7350 2600 50  0001 C CNN
-F 3 "" H 7350 2600 50  0001 C CNN
-	1    7350 2600
+P 7050 2500
+F 0 "#PWR0102" H 7050 2250 50  0001 C CNN
+F 1 "GND" H 7055 2327 50  0000 C CNN
+F 2 "" H 7050 2500 50  0001 C CNN
+F 3 "" H 7050 2500 50  0001 C CNN
+	1    7050 2500
 	1    0    0    -1  
 $EndComp
 $Comp
-L shellbell-rescue:1N4007-Diode-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue D1
+L Diode:1N4007 D1
 U 1 1 5C830709
-P 9400 3200
-F 0 "D1" V 9450 3400 50  0000 R CNN
-F 1 "D" V 9350 3350 50  0000 R CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 9400 3200 50  0001 C CNN
-F 3 "~" H 9400 3200 50  0001 C CNN
-	1    9400 3200
+P 8900 3500
+F 0 "D1" V 8950 3700 50  0000 R CNN
+F 1 "D" V 8850 3650 50  0000 R CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 8900 3500 50  0001 C CNN
+F 3 "~" H 8900 3500 50  0001 C CNN
+	1    8900 3500
 	0    1    1    0   
 $EndComp
 $Comp
-L shellbell-rescue:GND-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0105
+L power:GND #PWR0105
 U 1 1 5C831DC8
-P 9050 3800
-F 0 "#PWR0105" H 9050 3550 50  0001 C CNN
-F 1 "GND" H 9055 3627 50  0000 C CNN
-F 2 "" H 9050 3800 50  0001 C CNN
-F 3 "" H 9050 3800 50  0001 C CNN
-	1    9050 3800
+P 8550 4100
+F 0 "#PWR0105" H 8550 3850 50  0001 C CNN
+F 1 "GND" H 8555 3927 50  0000 C CNN
+F 2 "" H 8550 4100 50  0001 C CNN
+F 3 "" H 8550 4100 50  0001 C CNN
+	1    8550 4100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3100 2550 3400 2550
+	2800 2400 3100 2400
 $Comp
-L shellbell-rescue:+12V-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0108
+L power:+12V #PWR0108
 U 1 1 5C835D1C
-P 3400 2500
-F 0 "#PWR0108" H 3400 2350 50  0001 C CNN
-F 1 "+12V" H 3415 2673 50  0000 C CNN
-F 2 "" H 3400 2500 50  0001 C CNN
-F 3 "" H 3400 2500 50  0001 C CNN
-F 4 "V" H 3400 2500 50  0001 C CNN "Spice_Primitive"
-	1    3400 2500
+P 3100 2350
+F 0 "#PWR0108" H 3100 2200 50  0001 C CNN
+F 1 "+12V" H 3115 2523 50  0000 C CNN
+F 2 "" H 3100 2350 50  0001 C CNN
+F 3 "" H 3100 2350 50  0001 C CNN
+F 4 "V" H 3100 2350 50  0001 C CNN "Spice_Primitive"
+	1    3100 2350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3400 2550 3400 2500
+	3100 2400 3100 2350
 $Comp
-L shellbell-rescue:+12V-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0109
+L power:+12V #PWR0109
 U 1 1 5C8364FE
-P 9400 3000
-F 0 "#PWR0109" H 9400 2850 50  0001 C CNN
-F 1 "+12V" H 9415 3173 50  0000 C CNN
-F 2 "" H 9400 3000 50  0001 C CNN
-F 3 "" H 9400 3000 50  0001 C CNN
-	1    9400 3000
+P 8900 3300
+F 0 "#PWR0109" H 8900 3150 50  0001 C CNN
+F 1 "+12V" H 8915 3473 50  0000 C CNN
+F 2 "" H 8900 3300 50  0001 C CNN
+F 3 "" H 8900 3300 50  0001 C CNN
+	1    8900 3300
 	1    0    0    -1  
 $EndComp
 $Comp
-L shellbell-rescue:+12V-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0110
+L power:+12V #PWR0110
 U 1 1 5C836540
-P 6400 1950
-F 0 "#PWR0110" H 6400 1800 50  0001 C CNN
-F 1 "+12V" H 6415 2123 50  0000 C CNN
-F 2 "" H 6400 1950 50  0001 C CNN
-F 3 "" H 6400 1950 50  0001 C CNN
-	1    6400 1950
+P 5900 1800
+F 0 "#PWR0110" H 5900 1650 50  0001 C CNN
+F 1 "+12V" H 5915 1973 50  0000 C CNN
+F 2 "" H 5900 1800 50  0001 C CNN
+F 3 "" H 5900 1800 50  0001 C CNN
+	1    5900 1800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3400 2600 3400 2550
-Connection ~ 3400 2550
+	3100 2450 3100 2400
+Connection ~ 3100 2400
 Wire Wire Line
-	9400 3350 9400 3400
+	8900 3650 8900 3700
 $Comp
-L shellbell-rescue:PWR_FLAG-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #FLG0101
+L power:PWR_FLAG #FLG0101
 U 1 1 5C87C0A3
-P 3950 2550
-F 0 "#FLG0101" H 3950 2625 50  0001 C CNN
-F 1 "PWR_FLAG" H 3950 2724 50  0000 C CNN
-F 2 "" H 3950 2550 50  0001 C CNN
-F 3 "~" H 3950 2550 50  0001 C CNN
-	1    3950 2550
+P 3650 2400
+F 0 "#FLG0101" H 3650 2475 50  0001 C CNN
+F 1 "PWR_FLAG" H 3650 2574 50  0000 C CNN
+F 2 "" H 3650 2400 50  0001 C CNN
+F 3 "~" H 3650 2400 50  0001 C CNN
+	1    3650 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3950 2550 3850 2550
+	3650 2400 3550 2400
 $Comp
-L shellbell-rescue:FT230XS-U-dk_Interface-Controllers-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue U2
+L dk_Interface-Controllers:FT230XS-U U2
 U 1 1 5C9910BE
-P 6750 4900
-F 0 "U2" H 6500 4150 60  0000 C CNN
-F 1 "FT230XS-U" H 6550 5300 60  0000 C CNN
-F 2 "digikey-footprints:SSOP-16_W3.90mm" H 6950 5100 60  0001 L CNN
-F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf" H 6950 5200 60  0001 L CNN
-F 4 "768-1154-5-ND" H 6950 5300 60  0001 L CNN "Digi-Key_PN"
-F 5 "FT230XS-U" H 6950 5400 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 6950 5500 60  0001 L CNN "Category"
-F 7 "Interface - Controllers" H 6950 5600 60  0001 L CNN "Family"
-F 8 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf" H 6950 5700 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/ftdi-future-technology-devices-international-ltd/FT230XS-U/768-1154-5-ND/3749469" H 6950 5800 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC USB SERIAL BASIC UART 16SSOP" H 6950 5900 60  0001 L CNN "Description"
-F 11 "FTDI, Future Technology Devices International Ltd" H 6950 6000 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 6950 6100 60  0001 L CNN "Status"
-	1    6750 4900
+P 5950 3750
+F 0 "U2" H 5700 3000 60  0000 C CNN
+F 1 "FT230XS-U" H 5750 4150 60  0000 C CNN
+F 2 "digikey-footprints:SSOP-16_W3.90mm" H 6150 3950 60  0001 L CNN
+F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf" H 6150 4050 60  0001 L CNN
+F 4 "768-1154-5-ND" H 6150 4150 60  0001 L CNN "Digi-Key_PN"
+F 5 "FT230XS-U" H 6150 4250 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 6150 4350 60  0001 L CNN "Category"
+F 7 "Interface - Controllers" H 6150 4450 60  0001 L CNN "Family"
+F 8 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf" H 6150 4550 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/ftdi-future-technology-devices-international-ltd/FT230XS-U/768-1154-5-ND/3749469" H 6150 4650 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC USB SERIAL BASIC UART 16SSOP" H 6150 4750 60  0001 L CNN "Description"
+F 11 "FTDI, Future Technology Devices International Ltd" H 6150 4850 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6150 4950 60  0001 L CNN "Status"
+	1    5950 3750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6350 4700 6150 4700
-Wire Wire Line
-	6150 4700 6150 4400
-Wire Wire Line
-	6250 4300 6250 4800
-Wire Wire Line
-	6250 4800 6350 4800
 $Comp
-L shellbell-rescue:GND-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0111
+L power:GND #PWR0111
 U 1 1 5C99AF84
-P 5700 4750
-F 0 "#PWR0111" H 5700 4500 50  0001 C CNN
-F 1 "GND" H 5705 4577 50  0000 C CNN
-F 2 "" H 5700 4750 50  0001 C CNN
-F 3 "" H 5700 4750 50  0001 C CNN
-	1    5700 4750
+P 3150 4450
+F 0 "#PWR0111" H 3150 4200 50  0001 C CNN
+F 1 "GND" H 3155 4277 50  0000 C CNN
+F 2 "" H 3150 4450 50  0001 C CNN
+F 3 "" H 3150 4450 50  0001 C CNN
+	1    3150 4450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5700 4700 5700 4750
+	3150 4400 3150 4450
 Wire Wire Line
-	5600 4700 5700 4700
-Wire Wire Line
-	6950 4450 6950 4500
+	3050 4400 3150 4400
 $Comp
-L shellbell-rescue:Conn_02x04_Odd_Even-Connector_Generic-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue J2
+L Connector_Generic:Conn_02x04_Odd_Even J2
 U 1 1 5C9A93AC
-P 4500 4550
-F 0 "J2" H 4550 4750 50  0000 C CNN
-F 1 "Conn_02x04_Odd_Even" H 4850 4200 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 4500 4550 50  0001 C CNN
-F 3 "~" H 4500 4550 50  0001 C CNN
-	1    4500 4550
+P 3050 5600
+F 0 "J2" H 3100 5800 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 3400 5250 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 3050 5600 50  0001 C CNN
+F 3 "~" H 3050 5600 50  0001 C CNN
+	1    3050 5600
 	1    0    0    -1  
 $EndComp
 $Comp
-L shellbell-rescue:R-Device-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue R1
+L Device:R R1
 U 1 1 5C9A95F3
-P 4000 4650
-F 0 "R1" V 3900 4650 50  0000 C CNN
-F 1 "3.3k" V 4000 4650 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 3930 4650 50  0001 C CNN
-F 3 "~" H 4000 4650 50  0001 C CNN
-	1    4000 4650
+P 4550 5400
+F 0 "R1" V 4450 5400 50  0000 C CNN
+F 1 "3.3k" V 4550 5400 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4480 5400 50  0001 C CNN
+F 3 "~" H 4550 5400 50  0001 C CNN
+	1    4550 5400
 	0    1    1    0   
 $EndComp
 $Comp
-L shellbell-rescue:R-Device-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue R3
+L Device:R R3
 U 1 1 5C9A96AF
-P 5000 4650
-F 0 "R3" V 5150 4650 50  0000 C CNN
-F 1 "3.3k" V 5000 4650 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 4930 4650 50  0001 C CNN
-F 3 "~" H 5000 4650 50  0001 C CNN
-	1    5000 4650
-	0    1    1    0   
+P 4550 5800
+F 0 "R3" V 4450 5800 50  0000 C CNN
+F 1 "3.3k" V 4550 5800 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4480 5800 50  0001 C CNN
+F 3 "~" H 4550 5800 50  0001 C CNN
+	1    4550 5800
+	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	4800 4650 4850 4650
-Wire Wire Line
-	4150 4650 4300 4650
 $Comp
-L shellbell-rescue:+3.3V-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0114
+L power:+3V3 #PWR0114
 U 1 1 5C9ACFC6
-P 3850 4450
-F 0 "#PWR0114" H 3850 4300 50  0001 C CNN
-F 1 "+3.3V" H 3865 4623 50  0000 C CNN
-F 2 "" H 3850 4450 50  0001 C CNN
-F 3 "" H 3850 4450 50  0001 C CNN
-	1    3850 4450
+P 4400 5300
+F 0 "#PWR0114" H 4400 5150 50  0001 C CNN
+F 1 "+3.3V" H 4415 5473 50  0000 C CNN
+F 2 "" H 4400 5300 50  0001 C CNN
+F 3 "" H 4400 5300 50  0001 C CNN
+	1    4400 5300
 	1    0    0    -1  
 $EndComp
 $Comp
-L shellbell-rescue:+3.3V-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0115
+L power:+3V3 #PWR0115
 U 1 1 5C9ADF69
-P 5150 4500
-F 0 "#PWR0115" H 5150 4350 50  0001 C CNN
-F 1 "+3.3V" H 5165 4673 50  0000 C CNN
-F 2 "" H 5150 4500 50  0001 C CNN
-F 3 "" H 5150 4500 50  0001 C CNN
-	1    5150 4500
+P 3700 5550
+F 0 "#PWR0115" H 3700 5400 50  0001 C CNN
+F 1 "+3.3V" H 3715 5723 50  0000 C CNN
+F 2 "" H 3700 5550 50  0001 C CNN
+F 3 "" H 3700 5550 50  0001 C CNN
+	1    3700 5550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3850 4450 3850 4650
 $Comp
-L shellbell-rescue:R-Device-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue R2
+L Device:R R2
 U 1 1 5C9AF2CF
-P 5000 4550
-F 0 "R2" V 4900 4550 50  0000 C CNN
-F 1 "3.3k" V 5000 4550 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 4930 4550 50  0001 C CNN
-F 3 "~" H 5000 4550 50  0001 C CNN
-	1    5000 4550
-	0    1    1    0   
+P 4550 5600
+F 0 "R2" V 4450 5600 50  0000 C CNN
+F 1 "3.3k" V 4550 5600 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4480 5600 50  0001 C CNN
+F 3 "~" H 4550 5600 50  0001 C CNN
+	1    4550 5600
+	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	4800 4550 4850 4550
-Wire Wire Line
-	4300 4750 4300 5000
-Wire Wire Line
-	7350 5000 7400 5000
 $Comp
-L shellbell-rescue:GND-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0116
+L power:GND #PWR0116
 U 1 1 5C9B472F
-P 4550 4050
-F 0 "#PWR0116" H 4550 3800 50  0001 C CNN
-F 1 "GND" H 4555 3877 50  0000 C CNN
-F 2 "" H 4550 4050 50  0001 C CNN
-F 3 "" H 4550 4050 50  0001 C CNN
-	1    4550 4050
+P 3100 5100
+F 0 "#PWR0116" H 3100 4850 50  0001 C CNN
+F 1 "GND" H 3105 4927 50  0000 C CNN
+F 2 "" H 3100 5100 50  0001 C CNN
+F 3 "" H 3100 5100 50  0001 C CNN
+	1    3100 5100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4800 4450 4800 3750
+	2850 5100 3100 5100
 Wire Wire Line
-	4300 4050 4550 4050
+	2850 5600 2800 5600
 Wire Wire Line
-	4300 4550 4250 4550
-Wire Wire Line
-	4250 4550 4250 3600
-Wire Wire Line
-	4300 4450 4300 4050
-Wire Wire Line
-	4850 4650 4850 6000
-Wire Wire Line
-	7350 6000 7350 5100
-Connection ~ 4850 4650
-Wire Wire Line
-	4300 5000 6350 5000
-Wire Wire Line
-	4850 6000 7350 6000
-NoConn ~ 6350 5100
-NoConn ~ 6350 5200
-NoConn ~ 6350 5500
+	2850 5500 2850 5100
+NoConn ~ 5550 3950
+NoConn ~ 5550 4050
+NoConn ~ 5550 4350
 $Comp
-L shellbell-rescue:LED-Device-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue D3
+L Device:LED D3
 U 1 1 5C9D43F9
-P 5750 5800
-F 0 "D3" H 5742 6016 50  0000 C CNN
-F 1 "LED" H 5742 5925 50  0000 C CNN
-F 2 "Diode_SMD:D_1206_3216Metric" H 5750 5800 50  0001 C CNN
-F 3 "~" H 5750 5800 50  0001 C CNN
-	1    5750 5800
+P 4950 4600
+F 0 "D3" H 4942 4816 50  0000 C CNN
+F 1 "LED" H 4942 4725 50  0000 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 4950 4600 50  0001 C CNN
+F 3 "~" H 4950 4600 50  0001 C CNN
+	1    4950 4600
 	-1   0    0    -1  
 $EndComp
 $Comp
-L shellbell-rescue:LED-Device-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue D2
+L Device:LED D2
 U 1 1 5C9D44A9
-P 5400 5300
-F 0 "D2" H 5392 5516 50  0000 C CNN
-F 1 "LED" H 5392 5425 50  0000 C CNN
-F 2 "Diode_SMD:D_1206_3216Metric" H 5400 5300 50  0001 C CNN
-F 3 "~" H 5400 5300 50  0001 C CNN
-	1    5400 5300
+P 4600 4150
+F 0 "D2" H 4592 4366 50  0000 C CNN
+F 1 "LED" H 4592 4275 50  0000 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 4600 4150 50  0001 C CNN
+F 3 "~" H 4600 4150 50  0001 C CNN
+	1    4600 4150
 	-1   0    0    -1  
 $EndComp
 $Comp
-L shellbell-rescue:R-Device-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue R4
+L Device:R R4
 U 1 1 5C9D4760
-P 5750 5300
-F 0 "R4" V 5650 5300 50  0000 C CNN
-F 1 "330" V 5750 5300 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 5680 5300 50  0001 C CNN
-F 3 "~" H 5750 5300 50  0001 C CNN
-	1    5750 5300
+P 4950 4150
+F 0 "R4" V 4850 4150 50  0000 C CNN
+F 1 "330" V 4950 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4880 4150 50  0001 C CNN
+F 3 "~" H 4950 4150 50  0001 C CNN
+	1    4950 4150
 	0    1    1    0   
 $EndComp
 $Comp
-L shellbell-rescue:R-Device-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue R5
+L Device:R R5
 U 1 1 5C9D47D5
-P 5400 5800
-F 0 "R5" V 5300 5800 50  0000 C CNN
-F 1 "330" V 5400 5800 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 5330 5800 50  0001 C CNN
-F 3 "~" H 5400 5800 50  0001 C CNN
-	1    5400 5800
+P 4600 4600
+F 0 "R5" V 4500 4600 50  0000 C CNN
+F 1 "330" V 4600 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4530 4600 50  0001 C CNN
+F 3 "~" H 4600 4600 50  0001 C CNN
+	1    4600 4600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5900 5300 6350 5300
+	5100 4150 5550 4150
 Wire Wire Line
-	5550 5800 5600 5800
+	4750 4600 4800 4600
 Wire Wire Line
-	5550 5300 5600 5300
+	4750 4150 4800 4150
 $Comp
-L shellbell-rescue:+3.3V-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0117
+L power:+3V3 #PWR0117
 U 1 1 5C9DA2D9
-P 5200 5300
-F 0 "#PWR0117" H 5200 5150 50  0001 C CNN
-F 1 "+3.3V" H 5215 5473 50  0000 C CNN
-F 2 "" H 5200 5300 50  0001 C CNN
-F 3 "" H 5200 5300 50  0001 C CNN
-	1    5200 5300
+P 4400 4150
+F 0 "#PWR0117" H 4400 4000 50  0001 C CNN
+F 1 "+3.3V" H 4415 4323 50  0000 C CNN
+F 2 "" H 4400 4150 50  0001 C CNN
+F 3 "" H 4400 4150 50  0001 C CNN
+	1    4400 4150
 	1    0    0    -1  
 $EndComp
 $Comp
-L shellbell-rescue:+3.3V-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0118
+L power:+3V3 #PWR0118
 U 1 1 5C9DA30D
-P 5200 5800
-F 0 "#PWR0118" H 5200 5650 50  0001 C CNN
-F 1 "+3.3V" H 5215 5973 50  0000 C CNN
-F 2 "" H 5200 5800 50  0001 C CNN
-F 3 "" H 5200 5800 50  0001 C CNN
-	1    5200 5800
+P 4400 4600
+F 0 "#PWR0118" H 4400 4450 50  0001 C CNN
+F 1 "+3.3V" H 4415 4773 50  0000 C CNN
+F 2 "" H 4400 4600 50  0001 C CNN
+F 3 "" H 4400 4600 50  0001 C CNN
+	1    4400 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5200 5300 5250 5300
+	4400 4150 4450 4150
 Wire Wire Line
-	5200 5800 5250 5800
-Text Notes 5850 5300 0    50   ~ 0
-RX_LED#
-Text Notes 5850 5800 0    50   ~ 0
-TX_LED#
+	4400 4600 4450 4600
 $Comp
-L shellbell-rescue:+5V-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0119
+L power:+5V #PWR0119
 U 1 1 5C9DEAC6
-P 6100 4100
-F 0 "#PWR0119" H 6100 3950 50  0001 C CNN
-F 1 "+5V" H 6115 4273 50  0000 C CNN
-F 2 "" H 6100 4100 50  0001 C CNN
-F 3 "" H 6100 4100 50  0001 C CNN
-	1    6100 4100
+P 3550 3800
+F 0 "#PWR0119" H 3550 3650 50  0001 C CNN
+F 1 "+5V" H 3565 3973 50  0000 C CNN
+F 2 "" H 3550 3800 50  0001 C CNN
+F 3 "" H 3550 3800 50  0001 C CNN
+	1    3550 3800
 	1    0    0    -1  
 $EndComp
 $Comp
-L shellbell-rescue:+5V-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0120
+L power:+5V #PWR0120
 U 1 1 5C9DEAFA
-P 7050 4100
-F 0 "#PWR0120" H 7050 3950 50  0001 C CNN
-F 1 "+5V" H 7065 4273 50  0000 C CNN
-F 2 "" H 7050 4100 50  0001 C CNN
-F 3 "" H 7050 4100 50  0001 C CNN
-	1    7050 4100
+P 6250 3150
+F 0 "#PWR0120" H 6250 3000 50  0001 C CNN
+F 1 "+5V" H 6265 3323 50  0000 C CNN
+F 2 "" H 6250 3150 50  0001 C CNN
+F 3 "" H 6250 3150 50  0001 C CNN
+	1    6250 3150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7050 4100 7050 4500
+	3450 3800 3550 3800
 Wire Wire Line
-	6000 4100 6100 4100
-Wire Wire Line
-	9050 3400 9400 3400
+	8550 3700 8900 3700
 $Comp
-L shellbell-rescue:+3.3V-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0112
+L power:+3V3 #PWR0112
 U 1 1 5C9F5A59
-P 6150 4900
-F 0 "#PWR0112" H 6150 4750 50  0001 C CNN
-F 1 "+3.3V" H 6000 5000 50  0000 C CNN
-F 2 "" H 6150 4900 50  0001 C CNN
-F 3 "" H 6150 4900 50  0001 C CNN
-	1    6150 4900
+P 5200 3750
+F 0 "#PWR0112" H 5200 3600 50  0001 C CNN
+F 1 "+3.3V" H 5050 3850 50  0000 C CNN
+F 2 "" H 5200 3750 50  0001 C CNN
+F 3 "" H 5200 3750 50  0001 C CNN
+	1    5200 3750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6150 4900 6350 4900
 $Comp
-L shellbell-rescue:Barrel_Jack_MountingPin-Connector-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue J1
+L Connector:Barrel_Jack_MountingPin J1
 U 1 1 5C9FACC2
-P 2800 2650
-F 0 "J1" H 2855 2967 50  0000 C CNN
-F 1 "Barrel_Jack_MountingPin" H 2855 2876 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal" H 2850 2610 50  0001 C CNN
-F 3 "~" H 2850 2610 50  0001 C CNN
-	1    2800 2650
+P 2500 2500
+F 0 "J1" H 2555 2817 50  0000 C CNN
+F 1 "Barrel_Jack_MountingPin" H 2555 2726 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal" H 2550 2460 50  0001 C CNN
+F 3 "~" H 2550 2460 50  0001 C CNN
+	1    2500 2500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3100 2750 3100 2950
+	2800 2600 2800 2800
 $Comp
-L shellbell-rescue:+5V-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0113
+L power:+5V #PWR0113
 U 1 1 5C9FEBF2
-P 6050 2300
-F 0 "#PWR0113" H 6050 2150 50  0001 C CNN
-F 1 "+5V" H 6065 2473 50  0000 C CNN
-F 2 "" H 6050 2300 50  0001 C CNN
-F 3 "" H 6050 2300 50  0001 C CNN
-	1    6050 2300
+P 4900 2150
+F 0 "#PWR0113" H 4900 2000 50  0001 C CNN
+F 1 "+5V" H 4915 2323 50  0000 C CNN
+F 2 "" H 4900 2150 50  0001 C CNN
+F 3 "" H 4900 2150 50  0001 C CNN
+	1    4900 2150
 	1    0    0    -1  
 $EndComp
 $Comp
-L shellbell-rescue:D-Device-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue D4
+L Device:D D4
 U 1 1 5CA02F29
-P 6250 2300
-F 0 "D4" H 6250 2400 50  0000 C CNN
-F 1 "D" H 6250 2500 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 6250 2300 50  0001 C CNN
-F 3 "~" H 6250 2300 50  0001 C CNN
-	1    6250 2300
+P 5750 2150
+F 0 "D4" H 5750 2250 50  0000 C CNN
+F 1 "D" H 5750 2350 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 5750 2150 50  0001 C CNN
+F 3 "~" H 5750 2150 50  0001 C CNN
+	1    5750 2150
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7350 4900 7350 4450
+	8900 3350 8900 3300
+Connection ~ 8900 3300
+Connection ~ 8900 3700
 Wire Wire Line
-	7350 4450 6950 4450
+	9250 3300 8900 3300
 Wire Wire Line
-	7400 5000 7400 3750
+	9250 3350 9250 3300
 Wire Wire Line
-	4800 3750 7400 3750
+	8900 3700 9250 3700
 Wire Wire Line
-	5150 4550 5150 4650
-Connection ~ 5150 4550
-Wire Wire Line
-	5150 4500 5150 4550
-Wire Wire Line
-	9400 3050 9400 3000
-Connection ~ 9400 3000
-Connection ~ 9400 3400
-Wire Wire Line
-	9750 3000 9400 3000
-Wire Wire Line
-	9750 3050 9750 3000
-Wire Wire Line
-	9400 3400 9750 3400
-Wire Wire Line
-	9750 3400 9750 3350
+	9250 3700 9250 3650
 $Comp
-L shellbell-rescue:L_Core_Iron-Device-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue L1
+L Device:L_Core_Iron L1
 U 1 1 5C830224
-P 9750 3200
-F 0 "L1" H 9838 3246 50  0000 L CNN
-F 1 "Solenoid" H 9838 3155 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9750 3200 50  0001 C CNN
-F 3 "~" H 9750 3200 50  0001 C CNN
-	1    9750 3200
+P 9250 3500
+F 0 "L1" H 9338 3546 50  0000 L CNN
+F 1 "Solenoid" H 9338 3455 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9250 3500 50  0001 C CNN
+F 3 "~" H 9250 3500 50  0001 C CNN
+	1    9250 3500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6350 5400 6300 5400
+	5550 4250 5500 4250
 Wire Wire Line
-	6300 5400 6300 5800
+	5500 4250 5500 4600
 Wire Wire Line
-	6300 5800 5900 5800
-Connection ~ 5700 4700
+	5500 4600 5100 4600
+Connection ~ 3150 4400
 $Comp
-L shellbell-rescue:USB_B_Mini-Connector-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue J3
+L Connector:USB_B_Mini J3
 U 1 1 5C993947
-P 5700 4300
-F 0 "J3" H 5700 4750 50  0000 C CNN
-F 1 "USB_B_Mini" H 5700 4650 50  0000 C CNN
-F 2 "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal" H 5850 4250 50  0001 C CNN
-F 3 "~" H 5850 4250 50  0001 C CNN
-	1    5700 4300
+P 3150 4000
+F 0 "J3" H 3150 4450 50  0000 C CNN
+F 1 "USB_B_Mini" H 3150 4350 50  0000 C CNN
+F 2 "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal" H 3300 3950 50  0001 C CNN
+F 3 "~" H 3300 3950 50  0001 C CNN
+	1    3150 4000
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6000 4500
+NoConn ~ 3450 4200
 Wire Wire Line
-	6150 4400 6000 4400
-Wire Wire Line
-	6250 4300 6000 4300
-Wire Wire Line
-	6100 2300 6050 2300
+	5600 2150 5550 2150
 $Comp
-L shellbell-rescue:D-Device-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue D5
+L Device:D D5
 U 1 1 5CA3C74A
-P 6400 2100
-F 0 "D5" V 6446 2021 50  0000 R CNN
-F 1 "D" V 6355 2021 50  0000 R CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 6400 2100 50  0001 C CNN
-F 3 "~" H 6400 2100 50  0001 C CNN
-	1    6400 2100
+P 5900 1950
+F 0 "D5" V 5946 1871 50  0000 R CNN
+F 1 "D" V 5855 1871 50  0000 R CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 5900 1950 50  0001 C CNN
+F 3 "~" H 5900 1950 50  0001 C CNN
+	1    5900 1950
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6400 2250 6400 2300
+	5900 2100 5900 2150
 $Comp
-L shellbell-rescue:+3.3V-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0121
+L power:+3V3 #PWR0121
 U 1 1 5CA52736
-P 7350 2300
-F 0 "#PWR0121" H 7350 2150 50  0001 C CNN
-F 1 "+3.3V" H 7365 2473 50  0000 C CNN
-F 2 "" H 7350 2300 50  0001 C CNN
-F 3 "" H 7350 2300 50  0001 C CNN
-	1    7350 2300
+P 7050 2100
+F 0 "#PWR0121" H 7050 1950 50  0001 C CNN
+F 1 "+3.3V" H 7065 2273 50  0000 C CNN
+F 2 "" H 7050 2100 50  0001 C CNN
+F 3 "" H 7050 2100 50  0001 C CNN
+	1    7050 2100
 	1    0    0    -1  
 $EndComp
 $Comp
-L shellbell-rescue:GND-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0122
+L power:GND #PWR0122
 U 1 1 5CA597C5
-P 7000 5750
-F 0 "#PWR0122" H 7000 5500 50  0001 C CNN
-F 1 "GND" H 7005 5577 50  0000 C CNN
-F 2 "" H 7000 5750 50  0001 C CNN
-F 3 "" H 7000 5750 50  0001 C CNN
-	1    7000 5750
+P 6200 4600
+F 0 "#PWR0122" H 6200 4350 50  0001 C CNN
+F 1 "GND" H 6205 4427 50  0000 C CNN
+F 2 "" H 6200 4600 50  0001 C CNN
+F 3 "" H 6200 4600 50  0001 C CNN
+	1    6200 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3400 2900 3400 2950
+	3100 2750 3100 2800
 Wire Wire Line
-	2800 2950 3100 2950
-Connection ~ 3400 2950
+	2500 2800 2800 2800
+Connection ~ 3100 2800
 Wire Wire Line
-	3400 2950 3400 3000
-Connection ~ 3100 2950
+	3100 2800 3100 2850
+Connection ~ 2800 2800
 Wire Wire Line
-	3100 2950 3400 2950
+	2800 2800 3100 2800
 Wire Wire Line
-	7050 5700 7050 5750
+	6250 4550 6250 4600
 Wire Wire Line
-	7050 5750 7000 5750
+	6250 4600 6200 4600
 Wire Wire Line
-	6950 5700 6950 5750
+	6150 4550 6150 4600
 Wire Wire Line
-	6950 5750 7000 5750
-Connection ~ 7000 5750
-Wire Wire Line
-	4800 4750 5150 4750
-Wire Wire Line
-	5150 4750 5150 4650
-Connection ~ 5150 4650
+	6150 4600 6200 4600
+Connection ~ 6200 4600
 $Comp
-L shellbell-rescue:IRLB8721PBF-Transistor_FET-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue Q1
+L Transistor_FET:IRLB8721PBF Q1
 U 1 1 5C82FE9F
-P 8950 3600
-F 0 "Q1" H 8900 3450 50  0000 L CNN
-F 1 "IRLB8721PBF" H 8450 3700 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 9200 3525 50  0001 L CIN
-F 3 "http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566056732591" H 8950 3600 50  0001 L CNN
-	1    8950 3600
+P 8450 3900
+F 0 "Q1" H 8400 3750 50  0000 L CNN
+F 1 "IRLB8721PBF" H 7950 4000 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 8700 3825 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566056732591" H 8450 3900 50  0001 L CNN
+	1    8450 3900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8750 3600 4250 3600
 $Comp
-L shellbell-rescue:LD1117V33-dk_PMIC-Voltage-Regulators-Linear-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue U1
+L dk_PMIC-Voltage-Regulators-Linear:LD1117V33 U1
 U 1 1 5C9AEE14
-P 6900 2300
-F 0 "U1" H 6900 2587 60  0000 C CNN
-F 1 "LD1117V33" H 6900 2481 60  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7100 2500 60  0001 L CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf" H 7100 2600 60  0001 L CNN
-F 4 "497-1491-5-ND" H 7100 2700 60  0001 L CNN "Digi-Key_PN"
-F 5 "LD1117V33" H 7100 2800 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 7100 2900 60  0001 L CNN "Category"
-F 7 "PMIC - Voltage Regulators - Linear" H 7100 3000 60  0001 L CNN "Family"
-F 8 "http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf" H 7100 3100 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/stmicroelectronics/LD1117V33/497-1491-5-ND/586012" H 7100 3200 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC REG LINEAR 3.3V 800MA TO220AB" H 7100 3300 60  0001 L CNN "Description"
-F 11 "STMicroelectronics" H 7100 3400 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7100 3500 60  0001 L CNN "Status"
-	1    6900 2300
+P 6600 2150
+F 0 "U1" H 6600 2437 60  0000 C CNN
+F 1 "LD1117V33" H 6600 2331 60  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 6800 2350 60  0001 L CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf" H 6800 2450 60  0001 L CNN
+F 4 "497-1491-5-ND" H 6800 2550 60  0001 L CNN "Digi-Key_PN"
+F 5 "LD1117V33" H 6800 2650 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 6800 2750 60  0001 L CNN "Category"
+F 7 "PMIC - Voltage Regulators - Linear" H 6800 2850 60  0001 L CNN "Family"
+F 8 "http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf" H 6800 2950 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/stmicroelectronics/LD1117V33/497-1491-5-ND/586012" H 6800 3050 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC REG LINEAR 3.3V 800MA TO220AB" H 6800 3150 60  0001 L CNN "Description"
+F 11 "STMicroelectronics" H 6800 3250 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6800 3350 60  0001 L CNN "Status"
+	1    6600 2150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6400 2300 6600 2300
+	6900 2150 7050 2150
+Connection ~ 7050 2150
 Wire Wire Line
-	7200 2300 7350 2300
-Connection ~ 7350 2300
-Wire Wire Line
-	6900 2600 7350 2600
-Connection ~ 7350 2600
-Connection ~ 6400 2300
+	6600 2450 7050 2450
+Connection ~ 5900 2150
 $Comp
-L shellbell-rescue:CP1-Device-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue C3
+L Device:CP1 C3
 U 1 1 5C9AF28F
-P 6050 2450
-F 0 "C3" H 5850 2500 50  0000 L CNN
-F 1 "10uf" H 5800 2400 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 6050 2450 50  0001 C CNN
-F 3 "~" H 6050 2450 50  0001 C CNN
-	1    6050 2450
+P 5550 2300
+F 0 "C3" H 5350 2350 50  0000 L CNN
+F 1 "10uf" H 5300 2250 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 5550 2300 50  0001 C CNN
+F 3 "~" H 5550 2300 50  0001 C CNN
+	1    5550 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L shellbell-rescue:GND-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #PWR0103
+L power:GND #PWR0103
 U 1 1 5C9AF4E2
-P 6050 2600
-F 0 "#PWR0103" H 6050 2350 50  0001 C CNN
-F 1 "GND" H 6055 2427 50  0000 C CNN
-F 2 "" H 6050 2600 50  0001 C CNN
-F 3 "" H 6050 2600 50  0001 C CNN
-	1    6050 2600
+P 5550 2450
+F 0 "#PWR0103" H 5550 2200 50  0001 C CNN
+F 1 "GND" H 5555 2277 50  0000 C CNN
+F 2 "" H 5550 2450 50  0001 C CNN
+F 3 "" H 5550 2450 50  0001 C CNN
+	1    5550 2450
 	1    0    0    -1  
 $EndComp
-Connection ~ 6050 2300
+Connection ~ 5550 2150
 $Comp
-L shellbell-rescue:PWR_FLAG-power-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue #FLG0102
+L power:PWR_FLAG #FLG0102
 U 1 1 5C9B0FC3
-P 6600 2900
-F 0 "#FLG0102" H 6600 2975 50  0001 C CNN
-F 1 "PWR_FLAG" H 6600 3074 50  0000 C CNN
-F 2 "" H 6600 2900 50  0001 C CNN
-F 3 "~" H 6600 2900 50  0001 C CNN
-	1    6600 2900
+P 6250 1950
+F 0 "#FLG0102" H 6250 2025 50  0001 C CNN
+F 1 "PWR_FLAG" H 6250 2124 50  0000 C CNN
+F 2 "" H 6250 1950 50  0001 C CNN
+F 3 "~" H 6250 1950 50  0001 C CNN
+	1    6250 1950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6600 2900 6400 2900
-Wire Wire Line
-	6400 2900 6400 2300
 $Comp
-L shellbell-rescue:1N4148W-Diode-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue D6
+L Diode:1N4148W D6
 U 1 1 5C9C4B58
-P 5400 2450
-F 0 "D6" V 5300 2250 50  0000 L CNN
-F 1 "1N4148W" V 5400 2000 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 5400 2275 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5400 2450 50  0001 C CNN
-	1    5400 2450
+P 4900 2300
+F 0 "D6" V 4800 2100 50  0000 L CNN
+F 1 "1N4148W" V 4900 1850 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 4900 2125 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4900 2300 50  0001 C CNN
+	1    4900 2300
 	0    1    1    0   
 $EndComp
-Connection ~ 6050 2600
+Connection ~ 5550 2450
 $Comp
-L shellbell-rescue:1N4148W-Diode-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue D7
+L Diode:1N4148W D7
 U 1 1 5C9EF10E
-P 3850 2750
-F 0 "D7" V 3800 2850 50  0000 L CNN
-F 1 "1N4148W" V 3900 2850 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 3850 2575 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3850 2750 50  0001 C CNN
-	1    3850 2750
+P 3550 2600
+F 0 "D7" V 3500 2700 50  0000 L CNN
+F 1 "1N4148W" V 3600 2700 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 3550 2425 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3550 2600 50  0001 C CNN
+	1    3550 2600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3850 2600 3850 2550
-Connection ~ 3850 2550
+	3550 2450 3550 2400
+Connection ~ 3550 2400
 Wire Wire Line
-	3850 2550 3400 2550
+	3550 2400 3100 2400
 Wire Wire Line
-	3850 2900 3850 2950
+	3550 2750 3550 2800
 Wire Wire Line
-	3850 2950 3400 2950
+	3550 2800 3100 2800
 $Comp
-L shellbell-rescue:C-Device-shellbell-rescue-shellbell-rescue-shellbell-rescue-shellbell-rescue C4
+L Device:C C4
 U 1 1 5CA3FEAA
-P 5600 2450
-F 0 "C4" H 5715 2496 50  0000 L CNN
-F 1 "C" H 5715 2405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 5638 2300 50  0001 C CNN
-F 3 "~" H 5600 2450 50  0001 C CNN
-	1    5600 2450
+P 5100 2300
+F 0 "C4" H 5215 2346 50  0000 L CNN
+F 1 "C" H 5215 2255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5138 2150 50  0001 C CNN
+F 3 "~" H 5100 2300 50  0001 C CNN
+	1    5100 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5400 2300 5600 2300
+	4900 2150 5100 2150
 Wire Wire Line
-	5400 2600 5600 2600
+	4900 2450 5100 2450
 Wire Wire Line
-	5600 2300 6050 2300
-Connection ~ 5600 2300
+	5100 2150 5550 2150
+Connection ~ 5100 2150
 Wire Wire Line
-	5600 2600 6050 2600
-Connection ~ 5600 2600
+	5100 2450 5550 2450
+Connection ~ 5100 2450
+Text Label 2850 5800 2    50   ~ 0
+TXD
+Text Label 6550 3850 0    50   ~ 0
+TXD
+Text Label 3350 5500 0    50   ~ 0
+RXD
+Text Label 5550 3850 2    50   ~ 0
+RXD
+Text Label 2850 5700 2    50   ~ 0
+GPIO0
+Text Label 4700 5400 0    50   ~ 0
+GPIO0
+Text Label 4700 5600 0    50   ~ 0
+CH_PD
+Text Label 3350 5600 0    50   ~ 0
+CH_PD
+Text Label 4700 5800 0    50   ~ 0
+RST
+Text Label 3350 5700 0    50   ~ 0
+RST
+Wire Wire Line
+	3700 5550 3700 5800
+Wire Wire Line
+	3350 5800 3700 5800
+Connection ~ 4400 5600
+Wire Wire Line
+	4400 5600 4400 5400
+Wire Wire Line
+	4400 5300 4400 5400
+Connection ~ 4400 5400
+Text Label 2800 5600 2    50   ~ 0
+CTL
+Text Label 8250 3900 2    50   ~ 0
+CTL
+Text Label 8550 3700 2    50   ~ 0
+LGND
+Text Label 5400 4600 2    50   ~ 0
+TX_LED#
+Text Label 5400 4150 2    50   ~ 0
+RX_LED#
+Wire Wire Line
+	5900 2150 6250 2150
+Wire Wire Line
+	6250 1950 6250 2150
+Connection ~ 6250 2150
+Wire Wire Line
+	6250 2150 6300 2150
+Connection ~ 4900 2150
+Text Label 3450 4000 0    50   ~ 0
+USBDP
+Text Label 3450 4100 0    50   ~ 0
+USBDM
+Wire Wire Line
+	6250 3150 6250 3350
+Text Label 6150 3350 1    50   ~ 0
+VCCIO
+Text Label 6550 3750 0    50   ~ 0
+VCCIO
+Text Label 5550 3650 2    50   ~ 0
+USBDP
+Text Label 5550 3550 2    50   ~ 0
+USBDM
+Wire Wire Line
+	5200 3750 5550 3750
+Wire Wire Line
+	4400 5600 4400 5800
+Wire Wire Line
+	7050 2150 7050 2100
+Wire Wire Line
+	7050 2500 7050 2450
+Connection ~ 7050 2450
+$Comp
+L dk_Tactile-Switches:B3U-1000P S1
+U 1 1 5CEA951F
+P 6500 5600
+F 0 "S1" H 6500 5897 60  0000 C CNN
+F 1 "B3U-1000P" H 6500 5791 60  0000 C CNN
+F 2 "digikey-footprints:Switch_Tactile_SMD_B3U-1000P" H 6700 5800 60  0001 L CNN
+F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 6700 5900 60  0001 L CNN
+F 4 "SW1020CT-ND" H 6700 6000 60  0001 L CNN "Digi-Key_PN"
+F 5 "B3U-1000P" H 6700 6100 60  0001 L CNN "MPN"
+F 6 "Switches" H 6700 6200 60  0001 L CNN "Category"
+F 7 "Tactile Switches" H 6700 6300 60  0001 L CNN "Family"
+F 8 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 6700 6400 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/omron-electronics-inc-emc-div/B3U-1000P/SW1020CT-ND/1534357" H 6700 6500 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TACTILE SPST-NO 0.05A 12V" H 6700 6600 60  0001 L CNN "Description"
+F 11 "Omron Electronics Inc-EMC Div" H 6700 6700 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6700 6800 60  0001 L CNN "Status"
+	1    6500 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5CEA9651
+P 6700 5700
+F 0 "#PWR0104" H 6700 5450 50  0001 C CNN
+F 1 "GND" H 6705 5527 50  0000 C CNN
+F 2 "" H 6700 5700 50  0001 C CNN
+F 3 "" H 6700 5700 50  0001 C CNN
+	1    6700 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 5600 6700 5700
+Text Label 6200 5600 2    50   ~ 0
+GPIO0
+Wire Wire Line
+	6300 5600 6200 5600
+NoConn ~ 6550 3950
 $EndSCHEMATC

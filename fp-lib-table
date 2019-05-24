@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name shellbell)(type KiCad)(uri ${KIPRJMOD}/shellbell.pretty)(options "")(descr ""))
+  (lib (name digikey-footprints)(type KiCad)(uri /home/melder/git/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
 )
