@@ -1,6 +1,34 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# B3U-3000P_B3U-3000P
+#
+DEF B3U-3000P_B3U-3000P S 0 40 Y Y 1 L N
+F0 "S" -300 200 50 H V L BNN
+F1 "B3U-3000P_B3U-3000P" -301 -301 50 H V L BNN
+F2 "SW_B3U-3000P" 0 0 50 H I L BNN
+F3 "Omron Electronics" 0 0 50 H I L BNN
+F4 "None" 0 0 50 H I L BNN
+F5 "None" 0 0 50 H I L BNN
+F6 "B3U-3000P" 0 0 50 H I L BNN
+F7 "Unavailable" 0 0 50 H I L BNN
+DRAW
+S -350 -50 -299 50 0 0 0 F
+S 300 -50 350 50 0 0 0 F
+P 2 0 0 10 -300 -200 300 -200 N
+P 2 0 0 10 -300 0 -300 -200 N
+P 2 0 0 10 -300 0 -100 0 N
+P 2 0 0 10 -300 200 -300 0 N
+P 2 0 0 10 100 0 0 -100 N
+P 2 0 0 10 300 -200 300 0 N
+P 2 0 0 10 300 0 100 0 N
+P 2 0 0 10 300 0 300 200 N
+P 2 0 0 10 300 200 -300 200 N
+X 1 1 500 0 200 L 40 40 0 0 P
+X 2 2 -500 0 200 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
 # Connector_Barrel_Jack_MountingPin
 #
 DEF Connector_Barrel_Jack_MountingPin J 0 20 Y N 1 F N
@@ -258,6 +286,22 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Mechanical_MountingHole_Pad
+#
+DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
+F0 "H" 0 250 50 H V C CNN
+F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*Pad*
+$ENDFPLIST
+DRAW
+C 0 50 50 0 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Transistor_FET_IRLB8721PBF
 #
 DEF Transistor_FET_IRLB8721PBF Q 0 0 Y N 1 F N
@@ -352,35 +396,6 @@ S -200 100 200 -200 1 1 0 f
 X GND 1 0 -300 100 U 50 50 1 1 W
 X VOUT 2 300 0 100 L 50 50 1 1 w
 X VIN 3 -300 0 100 R 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# dk_Tactile-Switches_B3U-1000P
-#
-DEF dk_Tactile-Switches_B3U-1000P S 0 40 Y Y 1 F N
-F0 "S" 0 160 60 H V C CNN
-F1 "dk_Tactile-Switches_B3U-1000P" 0 -100 60 H V C CNN
-F2 "digikey-footprints:Switch_Tactile_SMD_B3U-1000P" 200 200 60 H I L CNN
-F3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" 200 300 60 H I L CNN
-F4 "SW1020CT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F5 "B3U-1000P" 200 500 60 H I L CNN "MPN"
-F6 "Switches" 200 600 60 H I L CNN "Category"
-F7 "Tactile Switches" 200 700 60 H I L CNN "Family"
-F8 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
-F9 "/product-detail/en/omron-electronics-inc-emc-div/B3U-1000P/SW1020CT-ND/1534357" 200 900 60 H I L CNN "DK_Detail_Page"
-F10 "SWITCH TACTILE SPST-NO 0.05A 12V" 200 1000 60 H I L CNN "Description"
-F11 "Omron Electronics Inc-EMC Div" 200 1100 60 H I L CNN "Manufacturer"
-F12 "Active" 200 1200 60 H I L CNN "Status"
-DRAW
-C -60 0 10 0 1 0 N
-C 60 0 10 0 1 0 N
-P 2 0 1 0 -100 0 -70 0 N
-P 2 0 1 0 -70 50 70 50 N
-P 2 0 1 0 -40 110 40 110 N
-P 2 0 1 0 0 50 0 110 N
-P 2 0 1 0 100 0 70 0 N
-X ~ 1 -200 0 100 R 50 50 1 1 P
-X ~ 2 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

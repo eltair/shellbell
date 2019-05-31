@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name B3U-3000P)(type Legacy)(uri ${KIPRJMOD}/B3U-3000P.lib)(options "")(descr ""))
 )
